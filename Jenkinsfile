@@ -4,7 +4,7 @@ pipeline {
     agent any 
 
     stages {
-        stage(' Checkout stage') { 
+        stage(' Checkout Stage') { 
             steps { 
                 sh 'ls' 
             }
